@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E8F2B3D8054B946D7F828E2 /* libPods-ZYP_CoreDraw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 487BFF6D18F624D8A96E6BBB /* libPods-ZYP_CoreDraw.a */; };
+		D197B2671F1CDF8A007813E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D197B2661F1CDF8A007813E2 /* main.m */; };
+		D197B26A1F1CDF8A007813E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D197B2691F1CDF8A007813E2 /* AppDelegate.m */; };
+		D197B2701F1CDF8A007813E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D197B26E1F1CDF8A007813E2 /* Main.storyboard */; };
+		D197B2721F1CDF8A007813E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D197B2711F1CDF8A007813E2 /* Assets.xcassets */; };
+		D197B2751F1CDF8A007813E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D197B2731F1CDF8A007813E2 /* LaunchScreen.storyboard */; };
+		D197B2841F1CE068007813E2 /* ZYPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D197B2811F1CE068007813E2 /* ZYPBaseViewController.m */; };
+		D197B2851F1CE068007813E2 /* ZYPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D197B2831F1CE068007813E2 /* ZYPViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		487BFF6D18F624D8A96E6BBB /* libPods-ZYP_CoreDraw.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYP_CoreDraw.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B57B3661337EB2EAAA8CF84 /* Pods-ZYP_CoreDraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYP_CoreDraw.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYP_CoreDraw/Pods-ZYP_CoreDraw.release.xcconfig"; sourceTree = "<group>"; };
+		9A94AEE7EB35F6898F244E5E /* Pods-ZYP_CoreDraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYP_CoreDraw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYP_CoreDraw/Pods-ZYP_CoreDraw.debug.xcconfig"; sourceTree = "<group>"; };
+		D197B2621F1CDF8A007813E2 /* ZYP_CoreDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYP_CoreDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D197B2661F1CDF8A007813E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D197B2681F1CDF8A007813E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D197B2691F1CDF8A007813E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D197B26F1F1CDF8A007813E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D197B2711F1CDF8A007813E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D197B2741F1CDF8A007813E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D197B2761F1CDF8A007813E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D197B2801F1CE068007813E2 /* ZYPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPBaseViewController.h; sourceTree = "<group>"; };
+		D197B2811F1CE068007813E2 /* ZYPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPBaseViewController.m; sourceTree = "<group>"; };
+		D197B2821F1CE068007813E2 /* ZYPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPViewController.h; sourceTree = "<group>"; };
+		D197B2831F1CE068007813E2 /* ZYPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPViewController.m; sourceTree = "<group>"; };
+		D197B2861F1CE30D007813E2 /* ZYP_CoreDraw.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYP_CoreDraw.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D197B25F1F1CDF8A007813E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8F2B3D8054B946D7F828E2 /* libPods-ZYP_CoreDraw.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD74C09D8E29D8C315550F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A94AEE7EB35F6898F244E5E /* Pods-ZYP_CoreDraw.debug.xcconfig */,
+				7B57B3661337EB2EAAA8CF84 /* Pods-ZYP_CoreDraw.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B68BC5F817B794F6DD4D5A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				487BFF6D18F624D8A96E6BBB /* libPods-ZYP_CoreDraw.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D197B2591F1CDF8A007813E2 = {
+			isa = PBXGroup;
+			children = (
+				D197B2641F1CDF8A007813E2 /* ZYP_CoreDraw */,
+				D197B2631F1CDF8A007813E2 /* Products */,
+				2FD74C09D8E29D8C315550F3 /* Pods */,
+				6B68BC5F817B794F6DD4D5A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D197B2631F1CDF8A007813E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D197B2621F1CDF8A007813E2 /* ZYP_CoreDraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D197B2641F1CDF8A007813E2 /* ZYP_CoreDraw */ = {
+			isa = PBXGroup;
+			children = (
+				D197B2681F1CDF8A007813E2 /* AppDelegate.h */,
+				D197B2691F1CDF8A007813E2 /* AppDelegate.m */,
+				D197B2861F1CE30D007813E2 /* ZYP_CoreDraw.pch */,
+				D197B27C1F1CE068007813E2 /* Base */,
+				D197B26E1F1CDF8A007813E2 /* Main.storyboard */,
+				D197B2711F1CDF8A007813E2 /* Assets.xcassets */,
+				D197B2731F1CDF8A007813E2 /* LaunchScreen.storyboard */,
+				D197B2761F1CDF8A007813E2 /* Info.plist */,
+				D197B2651F1CDF8A007813E2 /* Supporting Files */,
+			);
+			path = ZYP_CoreDraw;
+			sourceTree = "<group>";
+		};
+		D197B2651F1CDF8A007813E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D197B2661F1CDF8A007813E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D197B27C1F1CE068007813E2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D197B27D1F1CE068007813E2 /* Model */,
+				D197B27E1F1CE068007813E2 /* View */,
+				D197B27F1F1CE068007813E2 /* ViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D197B27D1F1CE068007813E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D197B27E1F1CE068007813E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D197B27F1F1CE068007813E2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D197B2801F1CE068007813E2 /* ZYPBaseViewController.h */,
+				D197B2811F1CE068007813E2 /* ZYPBaseViewController.m */,
+				D197B2821F1CE068007813E2 /* ZYPViewController.h */,
+				D197B2831F1CE068007813E2 /* ZYPViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D197B2611F1CDF8A007813E2 /* ZYP_CoreDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D197B2791F1CDF8A007813E2 /* Build configuration list for PBXNativeTarget "ZYP_CoreDraw" */;
+			buildPhases = (
+				070F4CD8497C74E8C621896A /* [CP] Check Pods Manifest.lock */,
+				D197B25E1F1CDF8A007813E2 /* Sources */,
+				D197B25F1F1CDF8A007813E2 /* Frameworks */,
+				D197B2601F1CDF8A007813E2 /* Resources */,
+				3A021CB94509F52565E74863 /* [CP] Embed Pods Frameworks */,
+				81381E365F4782100281435F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYP_CoreDraw;
+			productName = ZYP_CoreDraw;
+			productReference = D197B2621F1CDF8A007813E2 /* ZYP_CoreDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D197B25A1F1CDF8A007813E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhaoyunpeng;
+				TargetAttributes = {
+					D197B2611F1CDF8A007813E2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D197B25D1F1CDF8A007813E2 /* Build configuration list for PBXProject "ZYP_CoreDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D197B2591F1CDF8A007813E2;
+			productRefGroup = D197B2631F1CDF8A007813E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D197B2611F1CDF8A007813E2 /* ZYP_CoreDraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D197B2601F1CDF8A007813E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D197B2751F1CDF8A007813E2 /* LaunchScreen.storyboard in Resources */,
+				D197B2721F1CDF8A007813E2 /* Assets.xcassets in Resources */,
+				D197B2701F1CDF8A007813E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		070F4CD8497C74E8C621896A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A021CB94509F52565E74863 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYP_CoreDraw/Pods-ZYP_CoreDraw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81381E365F4782100281435F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYP_CoreDraw/Pods-ZYP_CoreDraw-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D197B25E1F1CDF8A007813E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D197B26A1F1CDF8A007813E2 /* AppDelegate.m in Sources */,
+				D197B2671F1CDF8A007813E2 /* main.m in Sources */,
+				D197B2851F1CE068007813E2 /* ZYPViewController.m in Sources */,
+				D197B2841F1CE068007813E2 /* ZYPBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D197B26E1F1CDF8A007813E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D197B26F1F1CDF8A007813E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D197B2731F1CDF8A007813E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D197B2741F1CDF8A007813E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D197B2771F1CDF8A007813E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D197B2781F1CDF8A007813E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D197B27A1F1CDF8A007813E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A94AEE7EB35F6898F244E5E /* Pods-ZYP_CoreDraw.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYP_CoreDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaoyunpeng.ZYP-CoreDraw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D197B27B1F1CDF8A007813E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B57B3661337EB2EAAA8CF84 /* Pods-ZYP_CoreDraw.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYP_CoreDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhaoyunpeng.ZYP-CoreDraw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D197B25D1F1CDF8A007813E2 /* Build configuration list for PBXProject "ZYP_CoreDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D197B2771F1CDF8A007813E2 /* Debug */,
+				D197B2781F1CDF8A007813E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D197B2791F1CDF8A007813E2 /* Build configuration list for PBXNativeTarget "ZYP_CoreDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D197B27A1F1CDF8A007813E2 /* Debug */,
+				D197B27B1F1CDF8A007813E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D197B25A1F1CDF8A007813E2 /* Project object */;
+}
