@@ -63,14 +63,6 @@
     cell.textLabel.textColor = [UIColor blackColor];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.accessoryType = UITableViewCellAccessoryNone;
-//    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-//    if (!cell) {
-//        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-//        cell.textLabel.text = self.array[indexPath.row]?self.array[indexPath.row][@"name"]:@"";
-//        cell.textLabel.textColor = [UIColor blackColor];
-//        cell.selectionStyle = UITableViewCellSelectionStyleNone;
-//        cell.accessoryType = UITableViewCellAccessoryNone;
-//    }
     return cell;
 }
 
